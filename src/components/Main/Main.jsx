@@ -20,7 +20,7 @@ export const Main = ({data, higher}) => {
     <main>
         <header>
             <div className="header__balance">
-                <h2>My balance</h2>
+                <h1>My balance</h1>
                 <p>$921.48</p>
             </div>
             <div>
@@ -31,7 +31,7 @@ export const Main = ({data, higher}) => {
     
         <section>
             <div>
-                <h3>Spending - Last 7 days</h3>
+                <h2>Spending - Last 7 days</h2>
                 <div className="container__graphics">
                     {
                         data.map(day => {
